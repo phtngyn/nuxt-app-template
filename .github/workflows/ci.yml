@@ -18,5 +18,5 @@ jobs:
           cache: true
 
       - run: vp install
-      - run: vp check
+      - run: vp check --fix
       # - run: vp test
