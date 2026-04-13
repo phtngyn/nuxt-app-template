@@ -1,0 +1,27 @@
+{
+  "name": "nuxt-app-template",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "typecheck": "nuxt typecheck",
+    "prepare": "vp config"
+  },
+  "dependencies": {
+    "@iconify-json/lucide": "^1.2.102",
+    "@nuxt/hints": "1.0.3",
+    "@nuxt/ui": "^4.6.1",
+    "@vueuse/nuxt": "14.2.1",
+    "nuxt": "^4.4.2",
+    "tailwindcss": "^4.2.2"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.2",
+    "vite-plus": "catalog:",
+    "vue-tsc": "^3.2.6"
+  },
+  "packageManager": "pnpm@10.33.0"
+}
